@@ -1,0 +1,10 @@
+{
+  "name": "music-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node scripts/check-music.mjs && node scripts/check-master.mjs && node scripts/check-transcribe.mjs && node scripts/check-coach.mjs"
+  }
+}
